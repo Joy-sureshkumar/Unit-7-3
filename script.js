@@ -7,9 +7,9 @@ while (guess !== number) {
 
   if (guess > number) {
     alert('Opps too high!')
-} else if (guess === number) {
+  } else if (guess === number) {
     alert('you got it!')
-} else if (guess < number) {
+  } else if (guess < number) {
     alert('Too low!')
-}
+  }
 }
